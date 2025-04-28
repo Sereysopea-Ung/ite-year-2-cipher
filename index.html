@@ -44,9 +44,9 @@
     <!--Classical Encryption/Decryption-->
     <div class="grid grid-cols-5 lg:grid-cols-6 border-1 border-black m-[25px]">
         <div class="h-auto p-[20px] border-black col-span-5 md:col-span-3 lg:col-span-4">
-           <h2 class="font-bold text-2xl border-b-[1px]">I.Classical Cryptography</h2>
+           <h2 id="content-1" class="font-bold text-2xl border-b-[1px]">I.Classical Cryptography</h2>
            <div class="h-auto p-[30px]">
-                <h3 class="font-bold text-xl border-b-[1px]">I.I. Caesar Cipher</h3>
+                <h3 id="content-1-1" class="font-bold text-xl border-b-[1px]">I.I. Caesar Cipher</h3>
                 <div class="sm:pl-[60px] pt-[20px]">
                     <section>
                         <p class="italic">
@@ -116,7 +116,7 @@
                         <br><br>
                         
                 </div>
-                <h3 class="font-bold text-xl border-b-[1px]">I.II. General Shift Cipher</h3>
+                <h3 id="content-1-2" class="font-bold text-xl border-b-[1px]">I.II. General Shift Cipher</h3>
                 <div class="sm:pl-[60px] pt-[20px]">
                     <section>
                         <p>
@@ -143,7 +143,7 @@
                         </div>
                         <br><br>
                 </div>
-                <h3 class="font-bold text-xl border-b-[1px]">I.III. Affine Cipher</h3>
+                <h3 id="content-1-3" class="font-bold text-xl border-b-[1px]">I.III. Affine Cipher</h3>
                 <div class="sm:pl-[60px] pt-[20px]">
                     <section>
                         <p>
@@ -173,7 +173,7 @@
                         </div>
                         <br>
                     </div>
-                <h3 class="font-bold text-xl border-b-[1px]">I.IV. Transposition Cipher</h3>
+                <h3 id="content-1-4" class="font-bold text-xl border-b-[1px]">I.IV. Transposition Cipher</h3>
                 <div class="sm:pl-[60px] pt-[20px]">
                     <section>
                         <p>In the fascinating world of cryptography, transposition ciphers stand out as one of the oldest and simplest forms of encryption. Rather than changing the actual letters or symbols (as substitution ciphers do), transposition ciphers rearrange the positions of the characters according to a specific system, creating a ciphertext that hides the original message.</p>
@@ -201,7 +201,7 @@
                     </div>
                 </div>
             </div>
-            <h2 class="font-bold text-2xl border-b-[1px]">II.RSA</h2>
+            <h2 id="content-2" class="font-bold text-2xl border-b-[1px]">II.RSA</h2>
             <div class="h-auto p-[30px]">
                 <h3 class="font-bold text-xl border-b-[1px]">II.I. RSA Cryptography</h3>
                 <div class="sm:pl-[60px] pt-[20px]">
@@ -258,7 +258,10 @@
                 </div>
                 <br>
             </div>
-            <h2 class="font-bold text-2xl border-b-[1px]">III.Miscellaneous</h2>
+            <h2 id="content-3" class="font-bold text-2xl border-b-[1px]">III.Miscellaneous</h2>
+            <div class="h-auto p-[30px]">
+                <p>Check my repository for codes: <a class="underline text-yellow-600" href="https://github.com/Sereysopea-Ung/ite-year-2-cipher.git">https://github.com/Sereysopea-Ung/ite-year-2-cipher.git</a></p>
+            </div>
         </div>
         <div  class="h-full p-[20px] hidden md:block md:col-span-2 lg:col-span-2">
             <div id="content" class="h-[320px] w-full bg-yellow-200 relative shadow-xl" style="font-family: sticker;">
@@ -266,15 +269,15 @@
                 <img class="absolute w-[50px] left-[10px] top-[260px]" src="img/pin.png" alt="pin">
                 <h2 class="text-center pt-[20px] text-3xl">Content</h2>
                 <div class="ml-[50px] mt-[20px] text-2xl text-[#555]">
-                    <p class="hover:text-blue-700 hover:underline hover:cursor-pointer text-black">1. Classical Cryptography</p>
+                    <a href="#content-1" id="menu-1"><p class="hover:text-blue-700 hover:underline hover:cursor-pointer">1. Classical Cryptography</p></a>
                     <div class="ml-[50px] text-xl">
-                        <p class="hover:text-blue-700 hover:underline hover:cursor-pointer">1.1 Caesar Cipher</p>
-                        <a href="#me"><p class="hover:text-blue-700 hover:underline hover:cursor-pointer">1.2 General Shift Cipher</p></a>
-                        <p class="hover:text-blue-700 hover:underline hover:cursor-pointer">1.3 Affine Cipher</p>
-                        <p class="hover:text-blue-700 hover:underline hover:cursor-pointer">1.4 Transposition Cipher</p>
+                        <a href="#content-1-1" id="menu-1-1"><p class="hover:text-blue-700 hover:underline hover:cursor-pointer">1.1 Caesar Cipher</p></a>
+                        <a href="#content-1-2" id="menu-1-2"><p class="hover:text-blue-700 hover:underline hover:cursor-pointer">1.2 General Shift Cipher</p></a>
+                        <a href="#content-1-3" id="menu-1-3"><p class="hover:text-blue-700 hover:underline hover:cursor-pointer">1.3 Affine Cipher</p></a>
+                        <a href="#content-1-4" id="menu-1-4"><p class="hover:text-blue-700 hover:underline hover:cursor-pointer">1.4 Transposition Cipher</p></a>
                     </div>
-                    <p class="hover:text-blue-700 hover:underline hover:cursor-pointer">2. RSA Cryptography</p>
-                    <p class="hover:text-blue-700 hover:underline hover:cursor-pointer">3. Miscellaneous</p>
+                    <a href="#content-2" id="menu-2"><p class="hover:text-blue-700 hover:underline hover:cursor-pointer">2. RSA Cryptography</p></a>
+                    <a href="#content-3" id="menu-3"><p class="hover:text-blue-700 hover:underline hover:cursor-pointer">3. Miscellaneous</p></a>
                 </div>
             </div>
         </div>
