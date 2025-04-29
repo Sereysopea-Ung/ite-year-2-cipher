@@ -34,10 +34,6 @@ const shiftResultDiv = document.getElementById('shift-result');
 shiftEncryptButton.addEventListener('click', () => {
     const plaintext = document.getElementById('shift-input').value;
     const key = parseInt(document.getElementById('shift-key').value);
-    if(isNaN(key) || isNaN(plaintext)){
-        shiftResultDiv.innerHTML = `<p>Please Enter Valid Input</p>`;
-        return;
-    }
     const ciphertext = shift_cipher_encryption(plaintext, key);
     shiftResultDiv.innerHTML = `<p>${ciphertext}</p>`;
 });
@@ -45,10 +41,6 @@ shiftEncryptButton.addEventListener('click', () => {
 shiftDecryptButton.addEventListener('click', () => {
     const ciphertext = document.getElementById('shift-input').value;
     const key = parseInt(document.getElementById('shift-key').value);
-    if(isNaN(key) || isNaN(ciphertext)){
-        shiftResultDiv.innerHTML = `<p>Please Enter Valid Input</p>`;
-        return;
-    }   
     const plaintext = shift_cipher_decryption(ciphertext, key);
     shiftResultDiv.innerHTML = `<p>${plaintext}</p>`;
 });
